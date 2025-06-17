@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compilar C",
+      "type": "shell",
+      "command": "gcc",
+      "args": [
+        "xadrez.c",
+        "-o",
+        "xadrez.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
